@@ -34,9 +34,3 @@ public struct CardView: View {
         .shadow(radius: 20)
     }
 }
-
-struct CardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CardView()
-    }
-}
