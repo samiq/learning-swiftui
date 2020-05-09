@@ -26,7 +26,7 @@ the `#imageLiteral(resourceName: "background.png")` is how you embed named image
 
 ## Components
 
-When extracting SwiftUI elements to their own files, Playgrounds requires making the `struct` and the `body` member  inside of it `public`, you also required to add a `public init` method even when no personalised initiation is required, this is because Playgrounds will compile the source files as a framework module to be consumed then by the main playground file, this compilation happens ahead of the interactive execution to keep things snappy.
+When extracting SwiftUI elements to their own files, Playgrounds requires making the `struct` and the `body` member  of the component `public`, you are also required to add a `public init` method even when no personalised initiation is required; this is because [Playgrounds will compile the source files as a module](https://help.apple.com/xcode/mac/8.0/#/devfa5bea3af) to be consumed by the Playground page, this compilation happens ahead of the interactive execution to keep things snappy.
 
 ```Swift
 public struct HelloComponent : View {    
