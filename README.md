@@ -12,8 +12,6 @@ This repo consists of 3 playground files:
 
 My aim is to have one page per lesson; now, not having gone thru all the lessons yet but know how limited Playgrounds are, I can imagine I won't be able to do everything vs an Xcode Project like Meng does in the course, but I wanted to push myself to see how much I could get done using just an iPad - think of it as my Corona challenge ;)
 
----
-
 ## Images
 
 Included in these playgrounds you will find `@3x` versions of the assets provided in the course's download assets, I was not able to make Playgrounds to play nice with PDF assets so I had to convert those to transparent pngs. `@3x` is the resolution used by iPads so I went with it but because of it, it means you have define the resolution of the original file when used, otherwise you will end up with an image 3x the intended size. An example of this is
@@ -25,8 +23,6 @@ Image(uiImage:#imageLiteral(resourceName: "background.png"))
 ```
 
 the `#imageLiteral(resourceName: "background.png")` is how you embed named images in playgrounds.
-
----
 
 ## Components
 
